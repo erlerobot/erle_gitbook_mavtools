@@ -1,6 +1,6 @@
 # Usefull scripts
 
-We need to download the  `mavinit.scr` script, that contains some aliases, very useful when doing motors tests.For downloading it, do the following:
+We need to download the  `mavinit.scr` script, that contains some aliases, very useful when doing motors tests. For downloading it, do the following:
 
 ```
 wget http://tridge.github.io/MAVProxy/files/mavinit.scr

@@ -1,6 +1,8 @@
 # MAVTogpx
 Exports the GPS points in a logfile to the GPX format, which can be read by Google Earth.
 
+Usage:
+
 ```
 mavtogpx.py 1.BIN
 

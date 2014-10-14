@@ -13,12 +13,12 @@ We get located at the `rootfs` partition. The logs get tored at `/var`. Now we w
 ```
 cd /var/APM/logs
 ```
-Here we find all the `APMrover2` logs and a file called `lastlog.txt`.
+Here we find all the `APMrover2`, `ArduCopter` or `ArduPlane` logs and a file called `lastlog.txt`.
 ```
 less lastlog.txt
 ```
 shows us the name of the last log, let's suppose `5.BIN`.
-Now we can copy it to the  `Logs` folder at our home, by doing:
+Now we can copy it to the `Logs` folder at our home, by doing:
 ```
 cp 5.BIN ~/Logs
 ```

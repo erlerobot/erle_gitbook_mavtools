@@ -22,5 +22,5 @@ Our small-size Linux computer is bringing robotics to the people and businesses.
 
 #Support
 
-For any questions, concerns, or issues submit them to support [at] erlerobot.com.
+For any questions, concerns, or issues submit them to *support [at] erlerobot.com*.
 

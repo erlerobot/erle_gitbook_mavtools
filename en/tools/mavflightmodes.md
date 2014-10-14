@@ -1,6 +1,8 @@
 # MAVFlightmodes
 Prints out the timestamp and name of each flight mode change in a logfile.
 
+Usage:
+
 ```
 mavflightmodes.py 1.BIN
 ```
