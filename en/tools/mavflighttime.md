@@ -1,6 +1,8 @@
 # MAVFlighttime
 Prints out the total time spent in the air. Note that a threshold of 3m/s defines the difference between air time and ground time. This can be changed by the --groundspeed= argument.
 
+Usage:
+
 ```
 mavflighttime.py 1.BIN
 ```

@@ -9,7 +9,7 @@
        * [Conection](tools/conection.md)
        * [Parameters](tools/parameters.md)
        * [Scripts](tools/scripts.md)
-       * [System commads](tools/system_commads)
+       * [System commads](tools/system_commads.md)
    * [MAVGraph](tools/mavgraph.md)
    * [MAVParams](tools/mavparams.md)
    * [MAVFlighttime](tools/mavflighttime.md)
@@ -21,5 +21,5 @@
        * [Stabilization](understanding_a_log_file/stabilization.md)
        * [Altitude hold](understanding_a_log_file/altitude_hold.md)
    * [RCIN](understanding_a_log_file/rcin.md)
-   * [Flight modes](understanding_a_log_file/flight_modes)
+   * [GPS](understanding_a_log_file/gps.md)
 

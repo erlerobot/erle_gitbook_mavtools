@@ -31,8 +31,8 @@ sudo pip install MAVProxy
 
 ##MACOS
 
-####Macports
-The first thing we have to do It's to install MACPorts, this project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the OS X operating system. [Here](https://guide.macports.org/chunked/installing.macports.html) you can find all the necessary information to install `macports`.
+####[Macports](https://guide.macports.org)
+The first thing we have to do It's to install [MACPorts](https://guide.macports.org), this project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the OS X operating system. [Here](https://guide.macports.org/chunked/installing.macports.html) you can find all the necessary information to install `macports`.
 
 ####Installing necessary packages
 Some modules will be necessary.
@@ -48,6 +48,7 @@ sudo port install py27-pil
 ```
 
 ####Installing pip
+MAVProxy is hosted on PyPi. You can use `pip`to install MAVProxy.
 ```
 sudo port install py27-pip
 ```

@@ -1,27 +1,11 @@
 # MAVProxy
 
-####reboot
-Reboots the APM.
+MAVProxy is a fully-functioning GCS for UAV's. The intent is for a minimalist, portable and extendable GCS for any UAV supporting the MAVLink protocol (such as the APM).
 
-####setup
-Goes into the setup (CLI) mode of the APM.
-
-####rc
-Override a RC (input) channel. This value remains in effect until a value of -1 is set. Uses the form of rc chan value. Use all to set a global value for all RC channels.
-
-```
-rc 1 1000
-rc all -1
-```
-
-####time
-Displays the current on the autopilot, if supported. The time in the brackets is the ground station time.
-
-####link
-Displays the telemetry link(s) status.
-
-####script
-Runs a text file containing MAVProxy commands, much like the startup scripts.
-
-####status
-Shows the latest packets received from the autopilot. Useful for reading the state of the UAV.
+##Features
++ It is a command-line, console based app. There are plugins included in MAVProxy to provide a basic GUI.
++ Can be networked and run over any number of computers.
+It's portable; it should run on any POSIX OS with python, pyserial, and select() function calls, which means Linux, OS X, Windows, and others.
++ The light-weight design means it can run on small netbooks with ease.
++ It supports loadable modules, and has modules to support console/s, moving maps, joysticks, antenna trackers, etc
+Tab-completion of commands.

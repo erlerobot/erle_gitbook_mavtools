@@ -1,6 +1,8 @@
 # MAVParams
 Finds the APM parameters in a logfile and displays them on the console.
 
+Usage:
+
 ```
 mavparms.py 1.BIN
 ```
