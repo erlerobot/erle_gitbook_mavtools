@@ -22,4 +22,5 @@
        * [Altitude hold](understanding_a_log_file/altitude_hold.md)
    * [RCIN](understanding_a_log_file/rcin.md)
    * [GPS](understanding_a_log_file/gps.md)
+* [Glossary](glossary/README.md)
 
