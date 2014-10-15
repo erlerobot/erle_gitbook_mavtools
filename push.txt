@@ -1,0 +1,7 @@
+Instructions how to push:
+------------------------
+
+git remote add gitbook https://push.gitbook.io/erlerobotics/erle-robotics-mav-tools.git
+git push -u gitbook master
+
+Then introduce username and password.
