@@ -25,9 +25,6 @@ There are 14 flight modes available in APM:Copter, 10 of which are regularly use
 + **Follow Me Mode**: makes it possible for you to have your copter follow you as you move, using a telemetry radio and a ground station. Mission Planner for Windows laptops, APM Planner for OS X laptops, and DroidPlanner for Android devices currently support Follow Me; however, it’s easiest to use a phone or tablet as your Follow Me ground station.
 + **Simple and Super Simple Modes**: “Simple” and “Super Simple” modes are used in combination with the Stabilize, Sport, Drift and Land flight modes. They allow the pilot to control the movement of the copter from the pilot’s point of view regardless of which way the copter is facing.
 
-
-
-
 ####GPS Dependency
 
 Requires GPS lock prior to takeoff:

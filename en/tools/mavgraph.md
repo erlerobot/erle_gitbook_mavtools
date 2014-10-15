@@ -33,5 +33,5 @@ This flag allows to show the different flight modes. This flag allows to show th
 
 In the following graph It's possible to see two different colors. when the background color is green represents the stabilize mode (at the beginning and in the end of the graph, the copter takes off and lands). When the background is red the copter is in altitude hold mode. You can check the color with the description above.
 
-![modovuelo](../en/erleimg/mavgraph/flightmodes.png)
+![modovuelo](../erleimg/mavgraph/flightmodes.png)
 
