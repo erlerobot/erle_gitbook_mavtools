@@ -1,4 +1,4 @@
-# Stabilization
+# Stabilize mode
 
 Stabilize mode allows you to fly your vehicle manually, but self-levels the roll and pitch axis.
 

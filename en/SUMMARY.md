@@ -18,7 +18,7 @@
 * [Understanding a log file](understanding_a_log_file/README.md)
    * [IMU](understanding_a_log_file/imu.md)
    * [Flight mode](understanding_a_log_file/flight_mode.md)
-       * [Stabilization](understanding_a_log_file/stabilization.md)
+       * [Stabilize](understanding_a_log_file/stabilization.md)
        * [Altitude hold](understanding_a_log_file/altitude_hold.md)
    * [RCIN](understanding_a_log_file/rcin.md)
    * [GPS](understanding_a_log_file/gps.md)
