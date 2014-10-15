@@ -1,6 +1,6 @@
 #Erle Gitbook: Basics Guide
 
-[![Build Status](https://www.gitbook.io/button/status/book/erlerobotics/erle_gitbook_mavtools)](https://www.gitbook.io/button/status/book/erlerobotics/erle_gitbook_mavtools)
+[![Build Status](https://www.gitbook.io/button/status/book/erlerobotics/erle-robotics-mav-tools)](https://www.gitbook.io/button/status/book/erlerobotics/erle-robotics-mav-tools)
 
 ##Book
 
