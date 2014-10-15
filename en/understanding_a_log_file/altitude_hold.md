@@ -22,4 +22,4 @@ APM running AC3.2 or Pixhawk running AC3.1 or AC3.2: CTUN’s BarAlt (baro alt),
 
 The three should track well as shown below.
 
-![roll](../en/erleimg/ALT_HOLD/ALT_HOLD.png)
+![roll](../erleimg/ALT_HOLD/ALT_HOLD.png)

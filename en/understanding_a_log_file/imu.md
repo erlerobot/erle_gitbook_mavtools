@@ -6,11 +6,11 @@ Vibrations are best viewed by graphing the dataflash’s IMU message’s AccX, A
 
 The below graph shows high vibration levels. The AccX, AccY and AccZ have very big variations. This is not a good result.
 
-![good_imu](../en/erleimg/IMU/bad_imu.png)
+![good_imu](../erleimg/IMU/bad_imu.png)
 
 
 The below graph shows acceptable vibration levels. The AccX and AccY values are between -3 and +3 m/s/s and the AccZ is between -15 and -5 m/s/s.
 
-![good_imu](../en/erleimg/IMU/good_imu.png)
+![good_imu](../erleimg/IMU/good_imu.png)
 
 
