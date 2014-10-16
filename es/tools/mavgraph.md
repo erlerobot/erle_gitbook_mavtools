@@ -1,8 +1,7 @@
 # MAVGraph
+MAVGraph permite representar cualquier dato de vuelo. El comando es exactamente el mismo que el modulo `graph` en MAVProxy.
 
-MAVGraph can graph any of the flight data. The commands are exactly the same as the graph module in MAVProxy.
-
-Usage:
+Uso:
 
 ```
 mavgraph.py 1.BIN "CTUN.BarAlt" "CTUN.Alt" "CTUN.DAlt"
@@ -11,7 +10,7 @@ mavgraph.py 1.BIN "CTUN.BarAlt" "CTUN.Alt" "CTUN.DAlt"
 ### Flags
 ####--flightmode
 
-This flag allows to show the different flight modes. The background of the graph changes depending on the flight mode. Here you can see the color code:
+Este flag permite mostrar los diferentes modos de vuelo.El color de fondo de la gráfica cambia dependiendo del modo de vuelo. A continuación puedes ver el código de colores:
 
 ```
     'MANUAL'    : (1.0,   0,   0),
@@ -31,7 +30,7 @@ This flag allows to show the different flight modes. The background of the graph
     'CRUISE'    : (  0, 1.0, 1.0)
 ```
 
-In the following graph It's possible to see two different colors. when the background color is green represents the stabilize mode (at the beginning and in the end of the graph, the copter takes off and lands). When the background is red the copter is in altitude hold mode. You can check the color with the description above.
+En la siguiente gráfica se ven dos colores. Cuando el color de fondo es verde representa el modo `stabilize` (en el principio de la gráfica y al final, es donde el helicoptero despega y aterriza). Cuando el color de fondo es rojo el helicoptero esta en modo `ALT_HOLD`. Puedes comprobrar los colores con la descripción de arriba. 
 
 ![modovuelo](../erleimg/mavgraph/flightmodes.png)
 
