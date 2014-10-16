@@ -1,10 +1,10 @@
-#Erle Gitbook: Basics Guide
+#Erle Gitbook: MAV Tools
 
-[![Build Status](https://www.gitbook.io/button/status/book/erlerobotics/erle-robotics-mav-tools)](https://www.gitbook.io/button/status/book/erlerobotics/erle-robotics-mav-tools)
+[![Build Status](https://www.gitbook.io/button/status/book/erlerobotics/erle-robotics-mav-tools)](https://www.gitbook.io/book/erlerobotics/erle-robotics-mav-tools/activity)
 
 ##Book
 
-**In this book it explained how to understand log files using MAVProxy tools**. All the log in this book come from [Erle board](http://erlerobot.com/). **Erle** is **a small-size Linux computer for making drones.**
+In this GitBook we analyze the different tools used with Micro Aerial Vehicles (MAV) most commonly known as drones. We show how to make graphics, analyze data and overall we teach you how improve your flight experience. **In this book it explained how to understand log files using MAVProxy tools**. All the log in this book come from [Erle board](http://erlerobot.com/). **Erle** is **a small-size Linux computer for making drones.**
 
 ![erlelogo](erleimg/Logo_erle.png)
 

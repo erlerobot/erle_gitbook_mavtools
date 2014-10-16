@@ -1,30 +1,30 @@
 # Parameters
-
-Parameters refer to the settings and configuration of the APM. The following commands can be used to view and change the parameters:
+Parámetros se refieren a los valores y la configuración de la APM. Los siguientes comandos se pueden utilizar para ver y cambiar los parámetros:
 
 #### param show
-View all current parameters on the APM.
+Ver todos lo parámetros actuales en APM.
 
 ```
 param show
 ```
 
 ####param set
-Change a specified parameter to a particular value.
+Cambia un valor específico con un valor en particular.
 
 ```
 param set FLTMODE1 9
 ```
 
 ####param save
-Save all current parameters on the APM to file.
+Guarda todos los parámetros de APM en un fichero.
 
 ```
 param save filename.parm
 ```
 
 ####param load
-Load parameters from file to APM. Only the parameters in the file will be overwritten.
+Carga los parámetros desde un fichero a APM
+Load parameters from file to  APM. Only the parameters in the file will be overwritten.
 
 ```
 param load filename.parm

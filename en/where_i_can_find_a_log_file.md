@@ -8,7 +8,7 @@ Doing :
 ```
 cd /media/rootfs
 ```
-We get located at the `rootfs` partition. The logs get tored at `/var`. Now we want to recover the last log from, for example, `ArduRover`:
+We get located at the `rootfs` partition. The logs get stored at `/var`. Now we want to recover the last log from, for example, `ArduRover`:
 
 ```
 cd /var/APM/logs
@@ -53,4 +53,4 @@ scp root@192.168.7.2:/var/APM/logs/1.BIN ~/LOGS
 
 #Upload your log
 
-The logs generally are added to [https://github.com/erlerobot/drones_logs](https://github.com/erlerobot/drones_logs)
+The logs generally are added to [https://github.com/erlerobot/logs](https://github.com/erlerobot/drones_logs)

@@ -1,13 +1,13 @@
 # MAVFlightmodes
-Prints out the timestamp and name of each flight mode change in a logfile.
+Imprime la fecha, hora y el nombre de cada cambio de modo de vuelo en un archivo de log.
 
-Usage:
+Uso:
 
 ```
 mavflightmodes.py 1.BIN
 ```
 
-Output:
+Salida:
 
 ```
 Thu Oct  9 16:54:56 2014 MAV.flightmode=STABILIZE    (MAV.timestamp=1412866496 0%)
