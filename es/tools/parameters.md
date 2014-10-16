@@ -23,22 +23,21 @@ param save filename.parm
 ```
 
 ####param load
-Carga los parámetros desde un fichero a APM
-Load parameters from file to  APM. Only the parameters in the file will be overwritten.
+Carga los parámetros desde un fichero a APM. Solo los parámetros que pueden ser sobreescritos.
 
 ```
 param load filename.parm
 ```
 
 ####param diff
-View the differences between the parameters in a file and what is currently on the APM.
+Ver las diferencias entre los parámetros en un archivo y lo que hay actualmente en APM.
 
 ```
 param diff filename.parm
 ```
 
 ####Wildcards
-Any of the above commands can be filtered by using wildcards, if only a particular subset of parameters needs to be manipulated.
+Cualquiera de los comandos anteriores se pueden filtrar mediante el uso de *Wildcards* (comodines), si sólo un subconjunto particular de parámetros tiene que ser manipulado.
 
 ```
 param show FLTMODE*
@@ -46,13 +45,14 @@ param load RC1*
 ```
 
 ####param download
-Downloads the parameter definitions from the Internet and cache.
+Descarga los parámetros de Internet
 
 ```
 param download
 ```
 ####param help
-Shows further information (usage, notes) of the specified parameter.
+
+Muestra más información (de uso, notas) del parámetro especificado.
 ```
 param help FLTMODE1
 ```
