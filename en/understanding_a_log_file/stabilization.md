@@ -17,12 +17,12 @@ Viewing the stabilize mode performance is best done by downloading a dataflash l
 ```
 mavgraph.py 1.BIN "ATT.Pitch" "ATT.DesPitch" --flightmode=apm
 ```
-![pitch](../erleimg/STA/STA_pitch.png)
+![pitch](../erleimg/STA/STA_Pitch.png)
 
 ```
 mavgraph.py 1.BIN "ATT.Roll" "ATT.DesRoll" --flightmode=apm
 ```
-![roll](../erleimg/STA/STA_roll.png)
+![roll](../erleimg/STA/STA_Roll.png)
 
 #Common problems
 + New copter flips immediately upon take-off.  This is usually caused by the motor order being incorrect or spinning in the wrong direction or using an incorrect propeller (clockwise vs counter-clockwise).
