@@ -1,4 +1,5 @@
 # Summary
+
 * [Introduction](README.md)
    * [Where I can find a log file?](where_i_can_find_a_log_file.md)
    * [Installing MAVProxy](installing_mavproxy.md)
@@ -9,6 +10,7 @@
        * [Parameters](tools/parameters.md)
        * [Scripts](tools/scripts.md)
        * [System commads](tools/system_commads.md)
+   * [MAVLogDump](tools/mavlogdump.md)
    * [MAVGraph](tools/mavgraph.md)
    * [MAVParams](tools/mavparams.md)
    * [MAVFlighttime](tools/mavflighttime.md)
@@ -21,5 +23,7 @@
        * [Altitude hold](understanding_a_log_file/altitude_hold.md)
    * [RCIN](understanding_a_log_file/rcin.md)
    * [GPS](understanding_a_log_file/gps.md)
+* [Common issues](common_issues/README.md)
+   * [Barometer-pitch and roll linkage](common_issues/barometer-pitch_and_roll_linkage.md)
 * [Glossary](glossary/README.md)
 
