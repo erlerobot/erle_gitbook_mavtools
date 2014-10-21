@@ -21,6 +21,7 @@
    * [Flight mode](understanding_a_log_file/flight_mode.md)
        * [Stabilize](understanding_a_log_file/stabilization.md)
        * [Altitude hold](understanding_a_log_file/altitude_hold.md)
+       * [Land](understanding_a_log_file/land.md)
    * [RCIN](understanding_a_log_file/rcin.md)
    * [GPS](understanding_a_log_file/gps.md)
 * [Common issues](common_issues/README.md)
