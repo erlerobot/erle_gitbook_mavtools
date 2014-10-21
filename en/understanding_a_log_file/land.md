@@ -2,9 +2,14 @@
 
 LAND mode attempts to bring the copter straight down.
 
-+ **Descends to 10m** (or until the sonar senses something below the copter) using the regular Altitude Hold controller which will descend at the speed held in the WPNAV_SPEED_DN parameter which can be modified
-+ **Below 10m** the copter should descend at the rate specified in the LAND_SPEED parameter which defaults to 50cm/s.
++ **Descends to 10 meters** (or until the sonar senses something below the copter) using the regular Altitude Hold controller which will descend at the speed held in the `WPNAV_SPEED_DN` parameter which can be modified
++ **Below 10 meters** the copter should descend at the rate specified in the `LAND_SPEED` parameter which defaults to 50cm/s.
 + Upon reaching the ground the copter will automatically shut-down the motors and disarm the copter if the pilot’s throttle is at minimum.
+
+In the following graph you can see the behaviour of the landing mode. When the background is red the copter is flying in altitude hold mode and the blue background means the robot is landing. The blue line represents the desired altitude. When the landing mode starts the desire altitude start to descend.
+
+![land](../erleimg/LAND/land.png)
+
 
 **NOTES**:
 + If the vehicle does not have GPS lock the horizontal control will be as in stabilize mode so the pilot can control the roll and pitch lean angle of the copter.
