@@ -2,7 +2,6 @@
 
 En el **modo de mantenimiento de altitud**, el helicóptero mantiene una altura constante al tiempo que permite controlar normalmente el *roll*, *pitch* y *yaw*. Esta página contiene información importante sobre el uso y puesta a punto del **modo ALT_HOLD**.
 
-
 Cuando el **modo de mantenimiento de altitud** (aka **ALT_HOLD**) es selecionado el acelerador se controla automáticamente para mantener la altitud actual. *roll*, *pitch* and *yaw* funcionan de la misma manera que en el modo `stabilize` lo que significa que el piloto controla directamente las condiciones de *roll* y los ángulos de *pitch* y el *yaw*.
 
 El modo mantenimiento automática de altitud es una característica de muchos otros modos de vuelo (*Loiter*, *Sport*, etc) por lo que la información que aquí se refiere a esos modos también.
