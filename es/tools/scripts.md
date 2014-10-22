@@ -20,7 +20,7 @@ Por ejemplo:
 ```
 en el mavinit.scr permitirá al usuario para representar gráficamente el *pitch*  y el *roll*en grados escribiendo:
 
-````
+```
 grp
 ```
 

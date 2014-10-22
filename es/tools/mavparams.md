@@ -1,9 +1,22 @@
-# MAVParams
+# MAVParms
 Encuentra los parámetros de APM en un archivo de registro y los muestra en la consola.
 
 Uso:
-
+```bash
+mavparms.py [-h] [-c] LOG [LOG ...]
 ```
+
+Argumentos posicionales:
+```bash
+    LOG
+```
+Argumentos opcionales:
+```bash
+  -h, --help     show this help message and exit
+  -c, --changes  Show only changes to parameters.
+```
+Ejemplo:
+```bash
 mavparms.py 1.BIN
 ```
 

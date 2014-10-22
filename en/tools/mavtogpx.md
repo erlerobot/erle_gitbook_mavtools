@@ -1,9 +1,29 @@
 # MAVTogpx
-Exports the GPS points in a logfile to the GPX format, which can be read by Google Earth.
+Exports the GPS data from a logfile and create a GPX file, which can be read by Google Earth.
 
 Usage:
-
+```bash
+mavtogpx.py [-h] [--condition CONDITION]
+            [--nofixcheck]
+            LOG [LOG ...]
 ```
+Positional arguments:
+```bash
+  LOG
+```
+
+Optional arguments:
+```bash
+  -h, --help
+                        show this help message and exit
+  --condition CONDITION
+                        select packets by a condition
+  --nofixcheck
+                        don't check for GPS fix
+```
+
+Example:
+```bash
 mavtogpx.py 1.BIN
 
 ```

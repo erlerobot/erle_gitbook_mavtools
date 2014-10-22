@@ -8,7 +8,7 @@ Alternatively, a .mavinit.scr can be placed in the user's home directory (ie. /h
 
 Also you can load the script by typing:
 
-```
+```bash
 script mavinit.scr
 ```
 
@@ -20,12 +20,12 @@ For example:
 ```
 in the mavinit.scr will allow the user to graph the current pitch and roll in degrees by typing
 
-````
+```bash
 grp
 ```
 
 instead of
 
-```
+```bash
 graph degrees(ATTITUDE.roll) degrees(ATTITUDE.pitch)
 ```

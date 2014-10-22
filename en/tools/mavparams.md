@@ -2,14 +2,27 @@
 Finds the APM parameters in a logfile and displays them on the console.
 
 Usage:
-
+```bash
+mavparms.py [-h] [-c] LOG [LOG ...]
 ```
+
+Positional arguments:
+```bash
+    LOG
+```
+Optional arguments:
+```bash
+  -h, --help     show this help message and exit
+  -c, --changes  Show only changes to parameters.
+```
+Example:
+```bash
 mavparms.py 1.BIN
 ```
 
 You can see all the parameters of the flight:
 
-```
+```bash
 ...
 RATE_RLL_IMAX   1000.000000
 RATE_RLL_P      0.090000

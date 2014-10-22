@@ -9,7 +9,7 @@ Va al modo configuración de APM
 ####rc
 Sobreescribe el canal de entrada de radiofrecuencia. El valor permanece hasta que se introduce un valor de -1. Usa la forma `rc <chan value>`. Utiliza `all` para poner todos los canales al mismo valor:
 
-```
+```bash
 rc 1 1000
 rc all -1
 ```
