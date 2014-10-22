@@ -2,18 +2,18 @@
 Prints out the total time spent in the air. Note that a threshold of 3m/s defines the difference between air time and ground time. This can be changed by the --groundspeed= argument.
 
 Usage:
-```bash
+```
 mavflighttime.py [-h] [--condition CONDITION]
                  [--groundspeed GROUNDSPEED]
                  LOG [LOG ...]
 ```
 Positional arguments:
-```bash
+```
   LOG
 ```
 
 Optional arguments:
-```bash
+```
   -h, --help            show this help message and exit
   --condition CONDITION
                         condition for packets
@@ -22,13 +22,14 @@ Optional arguments:
 ```
 
 Example:
-```bash
+
+```
 mavflighttime.py 1.BIN
 ```
 
 You can see a summary of your flights:
 
-```bash
+```
 In air at Thu Oct  9 16:56:51 2014 (percent 27% groundspeed 3.6)
 On ground at Thu Oct  9 16:56:52 2014 (percent 27.5% groundspeed 2.3  time=1.0 seconds)
 In air at Thu Oct  9 17:02:41 2014 (percent 85% groundspeed 3.1)
