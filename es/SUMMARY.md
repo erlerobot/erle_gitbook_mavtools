@@ -15,6 +15,7 @@
    * [MAVFlighttime](tools/mavflighttime.md)
    * [MAVFlightmodes](tools/mavflightmodes.md)
    * [MAVTogpx](tools/mavtogpx.md)
+   * [MAVExtract](tools/mavextract.md)
 * [Understanding a log file](understanding_a_log_file/README.md)
    * [IMU](understanding_a_log_file/imu.md)
    * [Flight mode](understanding_a_log_file/flight_mode.md)
