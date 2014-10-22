@@ -2,7 +2,25 @@
 Imprime el tiempo total de permanencia en el aire. Tenga en cuenta que un umbral de 3 m/s define la diferencia entre el tiempo de vuelo y el tiempo en tierra. Esto se puede cambiar por el argumento --groundspeed.
 
 Uso:
+```bash
+mavflighttime.py [-h] [--condition CONDITION]
+                 [--groundspeed GROUNDSPEED]
+                 LOG [LOG ...]
+```
+Argumentos posicionales:
+```bash
+  LOG
+```
 
+Argumentos opcionales:
+```bash
+  -h, --help            show this help message and exit
+  --condition CONDITION
+                        condition for packets
+  --groundspeed GROUNDSPEED
+                        groundspeed threshold
+```
+Ejemplo
 ```
 mavflighttime.py 1.BIN
 ```

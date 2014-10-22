@@ -2,6 +2,20 @@
 Imprime la fecha, hora y el nombre de cada cambio de modo de vuelo en un archivo de log.
 
 Uso:
+```bash
+mavflightmodes.py [-h] LOG [LOG ...]
+```
+
+Argumentos posicionales:
+```bash
+  LOG
+```
+Argumentos opcionales:
+```bash
+  -h, --help  show this help message and exit
+```
+
+Ejemplo:
 
 ```
 mavflightmodes.py 1.BIN

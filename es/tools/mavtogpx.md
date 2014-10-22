@@ -3,7 +3,30 @@ Exporta los puntos GPS en un archivo de registro en el formato GPX, que puede se
 
 Uso:
 
+```bash
+mavtogpx.py [-h] [--condition CONDITION]
+            [--nofixcheck]
+            LOG [LOG ...]
 ```
+
+Argumentos posicionales:
+```bash
+  LOG
+```
+
+Argumentos opcionales:
+```bash
+  -h, --help            
+                        show this help message and exit
+  --condition CONDITION
+                        select packets by a condition
+  --nofixcheck
+                        don't check for GPS fix
+```
+
+Ejemplo
+
+```bash
 mavtogpx.py 1.BIN
 
 ```

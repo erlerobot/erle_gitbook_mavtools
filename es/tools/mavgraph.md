@@ -2,8 +2,46 @@
 MAVGraph permite representar cualquier dato de vuelo. El comando es exactamente el mismo que el modulo `graph` en MAVProxy.
 
 Uso:
-
+```bash
+mavgraph.py [-h] [--no-timestamps] [--planner] [--condition CONDITION]
+                   [--labels LABELS] [--legend LEGEND] [--legend2 LEGEND2]
+                   [--marker MARKER] [--linestyle LINESTYLE] [--xaxis XAXIS]
+                   [--multi] [--zero-time-base] [--flightmode FLIGHTMODE]
+                   [--output OUTPUT]
+                   <LOG or FIELD> [<LOG or FIELD> ...]
 ```
+
+Argumentos posicionales:
+```bash
+<LOG or FIELD>
+```
+
+Argumentos opcionales:
+```bash
+  -h, --help            show this help message and exit
+  --no-timestamps       Log doesn't have timestamps
+  --planner             use planner file format
+  --condition CONDITION
+                        select packets by a condition
+  --labels LABELS       comma separated field labels
+  --legend LEGEND       default legend position
+  --legend2 LEGEND2     default legend2 position
+  --marker MARKER       point marker
+  --linestyle LINESTYLE
+                        line style
+  --xaxis XAXIS         X axis expression
+  --multi               multiple files with same colours
+  --zero-time-base      use Z time base for DF logs
+  --flightmode FLIGHTMODE
+                        Choose the plot background according to the active
+                        flight mode of the specified type, e.g.
+                        --flightmode=apm for ArduPilot or --flightmode=px4 for
+                        PX4 stack logs. Cannot be specified with --xaxis.
+  --output OUTPUT       provide an output format
+```
+
+Ejemplo
+```bash
 mavgraph.py 1.BIN "CTUN.BarAlt" "CTUN.Alt" "CTUN.DAlt"
 ```
 

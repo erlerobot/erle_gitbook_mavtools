@@ -2,11 +2,13 @@
 
 Esta herramienta permite convertir un archivo de log binario en un fichero capaz de ser leido. La salida del programa se mostrará por la salida estandar. Esta herramienta puede usarse como:
 
+Uso:
 ```bash
-avtools$ mavlogdump.py -h
-Usage: mavlogdump.py [options] <LOGFILE>
+mavlogdump.py [options] <LOGFILE>
+```
 
-Options:
+Opciones:
+```bash
   -h, --help            show this help message and exit
   --no-timestamps       Log doesn't have timestamps
   --planner             use planner file format

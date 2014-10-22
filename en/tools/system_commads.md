@@ -9,7 +9,7 @@ Goes into the setup (CLI) mode of the APM.
 ####rc
 Override a RC (input) channel. This value remains in effect until a value of -1 is set. Uses the form of rc chan value. Use all to set a global value for all RC channels.
 
-```
+```bash
 rc 1 1000
 rc all -1
 ```
