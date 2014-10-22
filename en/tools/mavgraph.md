@@ -3,7 +3,7 @@
 MAVGraph can graph any of the flight data. The commands are exactly the same as the graph module in MAVProxy.
 
 Usage:
-```bash
+```
 mavgraph.py [-h] [--no-timestamps] [--planner] [--condition CONDITION]
                    [--labels LABELS] [--legend LEGEND] [--legend2 LEGEND2]
                    [--marker MARKER] [--linestyle LINESTYLE] [--xaxis XAXIS]
@@ -13,12 +13,12 @@ mavgraph.py [-h] [--no-timestamps] [--planner] [--condition CONDITION]
 ```
 
 Positional arguments:
-```bash
+```
 <LOG or FIELD>
 ```
 
 Optional arguments:
-```bash
+```
   -h, --help            show this help message and exit
   --no-timestamps       Log doesn't have timestamps
   --planner             use planner file format
@@ -42,7 +42,7 @@ Optional arguments:
 ```
 
 Example:
-```bash
+```
 mavgraph.py 1.BIN "CTUN.BarAlt" "CTUN.Alt" "CTUN.DAlt"
 ```
 
