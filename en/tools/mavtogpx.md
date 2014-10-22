@@ -2,18 +2,18 @@
 Exports the GPS data from a logfile and create a GPX file, which can be read by Google Earth.
 
 Usage:
-```bash
+```
 mavtogpx.py [-h] [--condition CONDITION]
             [--nofixcheck]
             LOG [LOG ...]
 ```
 Positional arguments:
-```bash
+```
   LOG
 ```
 
 Optional arguments:
-```bash
+```
   -h, --help
                         show this help message and exit
   --condition CONDITION
@@ -23,7 +23,7 @@ Optional arguments:
 ```
 
 Example:
-```bash
+```
 mavtogpx.py 1.BIN
 
 ```
