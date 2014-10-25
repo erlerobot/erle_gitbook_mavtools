@@ -1,6 +1,6 @@
 # MAVProxy
 
-MAVProxy es unà estación de control en tierra con total funcionalidad para el UAV. La intención es que sea minimalista, portable y extensible para cualquier UAV que soporte el protocolo MAVLink (como el APM). 
+MAVProxy es una estación de control en tierra con total funcionalidad para el UAV. La intención es que sea minimalista, portable y extensible para cualquier UAV que soporte el protocolo MAVLink (como el APM). 
 
 ##Características
 + Es una aplicación basada en línea de comandos en consola. Hay algunos *plugins* que se incluyen en MAVProxy que proporcionan un GUI.
