@@ -11,7 +11,7 @@ MAV Tools GitBook
 
 In this GitBook we analyze the different tools used with Micro Aerial Vehicles (MAV) most commonly known as drones. We show how to make graphics, analyze data and overall we teach you how improve your flight experience. **In this book it explained how to understand log files using MAVProxy tools**. All the log in this book come from [Erle board](http://erlerobot.com/). **Erle** is **a small-size Linux computer for making drones.**
 
-![erlelogo](erleimg/Logo_erle.png)
+![erlelogo](en/erleimg/Logo_erle.png)
 
 ##About
 
@@ -19,7 +19,7 @@ For years we've been working in the robotics field, particularly with drones. We
 
 We are coming up with an answer to all these questions, our technology: **Erle**.
 
-![imgerle1](erleimg/board2.png)
+![imgerle1](en/erleimg/board2.png)
 
 Inspired by the BeagleBone development board, we have designed a small computer with about 36+ sensors, plenty of I/O and processing power for real-time analysis. Erle is the enabling technology for the next generation of aerial and terrestrial robots that will be used in cities solving tasks such as surveillance, enviromental monitoring or even providing aid at catastrophes.
 
