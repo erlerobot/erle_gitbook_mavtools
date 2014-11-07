@@ -51,21 +51,21 @@ mavgraph.py 1.BIN "CTUN.BarAlt" "CTUN.Alt" "CTUN.DAlt"
 Este flag permite mostrar los diferentes modos de vuelo.El color de fondo de la gráfica cambia dependiendo del modo de vuelo. A continuación puedes ver el código de colores:
 
 ```
-    'MANUAL'    : (1.0,   0,   0),
-    'AUTO'      : (  0, 1.0,   0),
-    'LOITER'    : (  0,   0, 1.0),
-    'FBWA'      : (1.0, 0.5,   0),
-    'RTL'       : (  1,   0, 0.5),
-    'STABILIZE' : (0.5, 1.0,   0),
-    'LAND'      : (  0, 1.0, 0.5),
-    'STEERING'  : (0.5,   0, 1.0),
-    'HOLD'      : (  0, 0.5, 1.0),
-    'ALT_HOLD'  : (1.0, 0.5, 0.5),
-    'CIRCLE'    : (0.5, 1.0, 0.5),
-    'POSITION'  : (1.0, 0.0, 1.0),
-    'GUIDED'    : (0.5, 0.5, 1.0),
-    'ACRO'      : (1.0, 1.0,   0),
-    'CRUISE'    : (  0, 1.0, 1.0)
+    'MANUAL'    : (1.0,   0,   0), -> rojo
+    'AUTO'      : (  0, 1.0,   0), -> verde
+    'LOITER'    : (  0,   0, 1.0), -> azul
+    'FBWA'      : (1.0, 0.5,   0), -> naraja
+    'RTL'       : (  1,   0, 0.5), -> rosa
+    'STABILIZE' : (0.5, 1.0,   0), -> verde claro
+    'LAND'      : (  0, 1.0, 0.5), -> verde medio
+    'STEERING'  : (0.5,   0, 1.0), -> violeta
+    'HOLD'      : (  0, 0.5, 1.0), -> azul oscuro
+    'ALT_HOLD'  : (1.0, 0.5, 0.5), -> rojo coral
+    'CIRCLE'    : (0.5, 1.0, 0.5), -> verde palido
+    'POSITION'  : (1.0, 0.0, 1.0), -> magenta
+    'GUIDED'    : (0.5, 0.5, 1.0), -> azul claro
+    'ACRO'      : (1.0, 1.0,   0), -> amarillo
+    'CRUISE'    : (  0, 1.0, 1.0)  -> turquesa
 ```
 
 En la siguiente gráfica se ven dos colores. Cuando el color de fondo es verde representa el modo `stabilize` (en el principio de la gráfica y al final, es donde el helicoptero despega y aterriza). Cuando el color de fondo es rojo el helicoptero esta en modo `ALT_HOLD`. Puedes comprobrar los colores con la descripción de arriba. 
