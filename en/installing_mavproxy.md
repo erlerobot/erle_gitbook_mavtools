@@ -29,7 +29,7 @@ Download and install MAVProxy. Note a sudo may be required in some circumstances
 sudo pip install MAVProxy
 ```
 
-##MACOS
+## Mac OS
 
 ####[Macports](https://guide.macports.org)
 The first thing we have to do It's to install [MACPorts](https://guide.macports.org), this project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the OS X operating system. [Here](https://guide.macports.org/chunked/installing.macports.html) you can find all the necessary information to install `macports`.
