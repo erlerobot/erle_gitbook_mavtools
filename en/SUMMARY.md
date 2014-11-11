@@ -30,6 +30,8 @@
        * [Return to launch](understanding_a_log_file/RTL.md)
    * [RCIN](understanding_a_log_file/rcin.md)
    * [GPS](understanding_a_log_file/gps.md)
+* [Real-Time](real-time/README.md)
+   * [Thread priorities](real-time/thread_priorities.md)
 * [Common issues](common_issues/README.md)
    * [Barometer-pitch and roll linkage](common_issues/barometer-pitch_and_roll_linkage.md)
 * [Glossary](glossary/README.md)
