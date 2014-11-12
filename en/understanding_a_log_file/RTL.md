@@ -1,6 +1,6 @@
 # Return to launch (RTL)
 
-In return to launch (RTL) mode, the copter navigates from its current position to hover above the home position. The behavior of RTL mode can be controlled by several adjustable parameters. This page describes how to use and customize RTL mode. 
+In return to launch (RTL) mode, the copter navigates from its current position to hover above the home position. The behavior of RTL mode can be controlled by several adjustable parameters. This page describes how to use and customize RTL mode.
 
 When RTL mode is selected, the copter will return to the home location. The copter will first rise to RTL_ALT before returning home or maintain the current altitude if the current altitude is higher than RTL_ALT.  The default value for RTL_ALT is 15m.
 

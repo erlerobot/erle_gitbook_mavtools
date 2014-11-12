@@ -16,3 +16,4 @@ We can graph these values with something like:
 mavgraph.py 5.BIN "BARO.Temp"
 ```
 ![](../erleimg/temperature.png)
+

@@ -17,7 +17,7 @@ The pilot can control the copter’s position with the control sticks. In AC3.1 
 
 The maximum horizontal speed of the copter during loiter mode can be adjusted with the Loiter Speed (**WPNAV_LOIT_SPEED**) parameter. The value is expressed in cm/s so 500 = 5m/s.  The maximum acceleration during Loiter mode is always 1/2 of the Loiter speed.
 
-The Loiter PID’s P value is used to convert the horizontal position error (i.e difference between the desired position and the actual position) to a desired speed towards the target position.  **It is generally not required to adjust this**. 
+The Loiter PID’s P value is used to convert the horizontal position error (i.e difference between the desired position and the actual position) to a desired speed towards the target position.  **It is generally not required to adjust this**.
 
 The Rate Loiter PID values are used to convert the desired speed towards the target to a desired acceleration.  The resulting desired acceleration becomes a lean angle which is then passed to the same angular controller used by [Stabilize mode](stabilization.md).  **It is generally not required to adjust this**.
 

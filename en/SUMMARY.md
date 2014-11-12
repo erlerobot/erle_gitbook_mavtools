@@ -31,6 +31,7 @@
    * [RCIN](understanding_a_log_file/rcin.md)
    * [GPS](understanding_a_log_file/gps.md)
    * [Temperature](understanding_a_log_file/temperature.md)
+   * [Performance Monitoring](understanding_a_log_file/performance_monitoring.md)
 * [Real-Time](real-time/README.md)
    * [Thread priorities](real-time/thread_priorities.md)
 * [Common issues](common_issues/README.md)

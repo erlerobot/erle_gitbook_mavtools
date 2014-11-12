@@ -11,7 +11,7 @@ There are 14 flight modes available in APM:Copter, 10 of which are regularly use
 
 ####Modes
 + **Stabilize**: Stabilize mode allows you to fly your vehicle manually, but self-levels the roll and pitch axis.
-+ **Altitude hold mode**: In altitude hold mode, the copter maintains a consistent altitude while allowing roll, pitch, and yaw to be controlled normally. 
++ **Altitude hold mode**: In altitude hold mode, the copter maintains a consistent altitude while allowing roll, pitch, and yaw to be controlled normally.
 + **Loiter**: Loiter automatically attempts to maintain the current location, heading and altitude. The pilot may fly the copter in Loiter mode as if it were in manual. Releasing the sticks will continue to hold position.
 + **RTL Mode**: In return to launch (RTL) mode, the copter navigates from its current position to hover above the home position. The behavior of RTL mode can be controlled by several adjustable parameters.
 + **Auto Mode**: In Auto mode the copter will follow a pre-programmed mission script stored in the autopilot which is made up of navigation commands (i.e. waypoints) and “do” commands (i.e. commands that do not affect the location of the copter including triggering a camera shutter).
