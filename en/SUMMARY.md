@@ -30,6 +30,7 @@
        * [Return to launch](understanding_a_log_file/RTL.md)
    * [RCIN](understanding_a_log_file/rcin.md)
    * [GPS](understanding_a_log_file/gps.md)
+   * [Temperature](understanding_a_log_file/temperature.md)
 * [Real-Time](real-time/README.md)
    * [Thread priorities](real-time/thread_priorities.md)
 * [Common issues](common_issues/README.md)
