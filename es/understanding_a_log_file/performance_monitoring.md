@@ -1,19 +1,17 @@
-# Performance Monitoring
-Performance Monitoring or PM is presented in the dataflash logs as:
+# Monitorización del redimiento 
+La monitorización del rendimiento o PM esta presente en los datos de vuelo:
 ```
 PM {NLon : 6, NLoop : 1000, MaxT : 23731, PMT : 9, I2CErr : 0, INSErr : 0, INAVErr : 0}
 ```
+Estos datos pueden ser interpretados como:
 
-This data can be interpreted as:
++ **NLon**: Número de bluces que han tardado más del tiempo estipulado en ejecutar. ( es decir, aquellos procesos que toman más de 5% de tiempo estipulada para ejecutar).
++ **NLoop**: El número total de bucles desde la última vez que se mostró el mensaje PM. Normalmente es 1000 y permite calcular el porcentaje de bucles que se ejecutan lentamente, nunca debe superar el 15%.
++ **MaxT**: El tiempo máximo que algún bucle tomó desde el último mensaje PM. Esto debería estar cerca de 10.000 pero será hasta 6.000.000 mientras se arman los motores.
++ **PMT**: Este número aumenta cada vez que se recibe un bit de vida desde la estación base. 
++ **I2CErr, INAVErr, INSErr**: el número de errores I2C, INAV e INS desde el último mensaje PM. Algunos errores I2C pueden indicar problemas en el bus I2C. 
 
- + **NLon**: number of long running main loops (i.e. loops that take more than 5% longer than the x ms they should)
- + **NLoop**: the total number of loops since the last PM message was displayed. Normally 1000 and allows you to calculate the percentage of slow running loops which should never be higher than 15%.
- + **MaxT**: the maximum time that any loop took since the last PM message. This should be close to 10,000 but will be up to 6,000,000 during the interval where the motors are armed
- + **PMT**: a number that increments each time a heart beat is received from the ground station
- + **I2CErr, INAVErr, INSErr**: the number of I2C, INAV and INS errors since the last PM message. Any I2C errors may indicate a problem on the I2C bus which may in turn slow down the main loop and cause performance problems.
-
-
-The number of slow loops can be pictured as:
+El número de bucles lentos se muestran:
 ```
 mavgraph.py 5.BIN "PM.NLon"
 ```
