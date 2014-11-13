@@ -32,11 +32,13 @@ Hay dos maneras de guardar un los datos de vuelo con ArduCopter. Con algunas exc
  + Temp : (25.57) Temperatura en (º C).
  + CRt : (0.0213998798281) ?
 + **PM** (monitorización del redimiento):
- + NLon: 
- + NLoop: El número total de bucles desde la última vez que se mostró el mensaje PM. Normalmente es 1000 y permite calcular el porcentaje de bucles que se ejecutan lentamente, nunca debe superar el 15%.
-+ MaxT: El tiempo máximo que algún bucle
-+ PMT: 
-* I2CErr, INAVErr, INSErr: el número de errores I2C, INAV e INS desde el último mensaje PM. Algunos errores I2C puede indicar problemas en el bus I2C. 
+ + **NLon**: Número de bluces que han tardado más del tiempo estipulado en ejecutar. ( es decir, aquellos procesos que toman más de 5% de tiempo estipulada para ejecutar).
+ + **NLoop**: El número total de bucles desde la última vez que se mostró el mensaje PM. Normalmente es 1000 y permite calcular el porcentaje de bucles que se ejecutan lentamente, nunca debe superar el 15%.
+ + **MaxT**: El tiempo máximo que algún bucle tomó desde el último mensaje PM. Esto debería estar cerca de 10.000 pero será hasta 6.000.000 mientras se arman los motores.
+ + **PMT**: Este número aumenta cada vez que se recibe un bit de vida desde la estación base. 
+ + **I2CErr, INAVErr, INSErr**: el número de errores I2C, INAV e INS desde el último mensaje PM. Algunos errores I2C pueden indicar problemas en el bus I2C. 
+
+
 
 
 

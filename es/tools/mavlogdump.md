@@ -1,4 +1,4 @@
-#mavlogdump
+# MAVLogdump
 
 Esta herramienta permite convertir un archivo de log binario en un fichero capaz de ser leido. La salida del programa se mostrará por la salida estandar. Esta herramienta puede usarse como:
 

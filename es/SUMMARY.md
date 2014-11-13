@@ -9,7 +9,7 @@
        * [Parameters](tools/parameters.md)
        * [Scripts](tools/scripts.md)
        * [System commads](tools/system_commads.md)
-       * [Performance](tools/performance.md)
+       * [Performance](tools/perfomance.md)
    * [MAVLogDump](tools/mavlogdump.md)
    * [MAVGraph](tools/mavgraph.md)
    * [MAVParams](tools/mavparams.md)
