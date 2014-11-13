@@ -56,3 +56,16 @@ sudo port install py27-pip
 Download and install MAVProxy. Note a sudo may be required in some circumstances if the install generates errors.
 
 `sudo pip-2.7 install MAVProxy`
+
+You can find `mavproxy.py` in the following path:
+
+```
+/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/MAVProxy/
+```
+
+You can find more Python script in the following path:
+
+```
+/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin
+```
+
