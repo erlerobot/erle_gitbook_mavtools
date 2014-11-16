@@ -20,6 +20,7 @@
    * [MAVTogpx](tools/mavtogpx.md)
    * [MAVExtract](tools/mavextract.md)
    * [MAVTomfile](tools/mavtomfile.md)
+   * [SITL](tools/sitl.md)
 * [Understanding a log file](understanding_a_log_file/README.md)
    * [IMU](understanding_a_log_file/imu.md)
    * [Flight mode](understanding_a_log_file/flight_mode.md)
