@@ -30,7 +30,7 @@ Descarga e instala MAVProxy. Es posible que requiera permisos de `sudo`.
 sudo pip install MAVProxy
 ```
 
-##MACOS
+## Mac OS
 
 ####[Macports](https://guide.macports.org)
 Lo primero es instalar  [MACPorts](https://guide.macports.org), este proyecto es una iniciativa de la comunidad open-source para desarrollar un sistema sencilla para la compilación, instalación y actualización de paquetes para la línea de comandos, X11 o Aqua basatado en el sotfware open-source disponible para MACOS. [Aquí](https://guide.macports.org/chunked/installing.macports.html) puedes encontrar toda la información necesaria para instalar `macports`.
@@ -58,3 +58,15 @@ sudo port install py27-pip
 Descarga e instala MAVProxy. Es posible que requiera permisos de `sudo`.
 
 `sudo pip-2.7 install MAVProxy`
+
+Puedes encontrar `mavproxy.py` en la siguiente ruta:
+```
+/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/MAVProxy/
+```
+
+Puedes encontrar más script de Python en el siguiente path:
+```
+/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin
+```
+
+
