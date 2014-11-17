@@ -18,3 +18,4 @@ Aribary mathematical functions can alse be used.
 ```
 graph add "(VFR_HUD.alt/1000.0)+5"
 ```
+
