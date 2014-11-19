@@ -28,13 +28,13 @@ Revisando el redimiento de la posición horizontal es la mejor manera, para ello
 mavgraph.py $LOITER1.BIN "NTUN.DVelX" "NTUN.VelX" --flightmode=apm
 ```
 
-![velX](../erleimg/LOITER/loiterX.png)
+![velX](../erleimg/LOITER/LoiterX.png)
 
 ```
 mavgraph.py $LOITER1.BIN "NTUN.DVelY" "NTUN.VelY" --flightmode=apm
 ```
 
-![velY](../erleimg/LOITER/loiterY.png)
+![velY](../erleimg/LOITER/LoiterY.png)
 
 Para revisar el redimiento del control de altitud es el mismo que [AltHold](altitude_hold.md).
 

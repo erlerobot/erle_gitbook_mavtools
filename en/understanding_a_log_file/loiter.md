@@ -29,13 +29,13 @@ Viewing the loiter’s horizontal performance is best done by downloading a data
 mavgraph.py $LOITER1.BIN "NTUN.DVelX" "NTUN.VelX" --flightmode=apm
 ```
 
-![velX](../erleimg/LOITER/loiterX.png)
+![velX](../erleimg/LOITER/LoiterX.png)
 
 ```
 mavgraph.py $LOITER1.BIN "NTUN.DVelY" "NTUN.VelY" --flightmode=apm
 ```
 
-![velY](../erleimg/LOITER/loiterY.png)
+![velY](../erleimg/LOITER/LoiterY.png)
 
 Checking altitude hold performance is the same as for [AltHold mode](altitude_hold.md).
 
