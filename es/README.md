@@ -20,6 +20,11 @@ Inspirado en la BeagleBoard, hemos diseñado un pequeño computador con más de 
 
 Nuestro ordenador linux de pequeñas dimensiones esta acercado la robótica a la gente y los negocios.
 
-#Soporte
+##Licencia
+A menos que se especifique lo contrario, este contenido esta bajo *Creative Commons Attribution-NonComercial-Share Alike 3.0 Unported License* Para ver una copia de la licencia visita http://creativecommons.org/licenses/by-sa/3.0/](http://creativecommons.org/licenses/by-sa/3.0/) o envía una carta a *Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA*.
+
+![license](http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+
+Todos los trabajos derivados deben de ser atribuidos a *Erle Robotics S.L.*. Para ver la lista de autores [revisa](https://github.com/erlerobot/erle_gitbook_mavtools/graphs/contributors).
 
 Para cualquier preguntar, preocupación o problema contactenos en *support [at] erlerobot.com*.
