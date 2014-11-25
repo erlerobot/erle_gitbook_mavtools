@@ -13,7 +13,7 @@ The pilot can control the copter’s position with the control sticks. In AC3.1 
 - Altitude can be controlled with the Throttle control stick just as in [AltHold mode](altitude_hold.md).
 - The heading can be set with the Yaw control stick
 
-##Tunig
+##Tunning
 
 The maximum horizontal speed of the copter during loiter mode can be adjusted with the Loiter Speed (**WPNAV_LOIT_SPEED**) parameter. The value is expressed in cm/s so 500 = 5m/s.  The maximum acceleration during Loiter mode is always 1/2 of the Loiter speed.
 
@@ -43,5 +43,6 @@ Checking altitude hold performance is the same as for [AltHold mode](altitude_ho
 
 As mentioned above, Loiter mode incorporates the altitude controller from [AltHold mode](altitude_hold.md).
 
-- The vehicle takes off in the wrong direction as soon as loiter is engaged.  The cause is the same as #1 except that the compass error is greater than 90deg.  Please try the suggestions above to resolve this.
-- The vehicle is loitering normally and then suddenly takes off in the wrong direction.  This is generally caused by a GPS Glitch.  There is no 100% reliable protection against these which means the pilot should always be ready to take-over manual control.  Beyond that ensuring a good GPS HDOP before take-off is always good and it may help to reduce the GPSGLITCH_RADIUS and/or GPSGLITCH_ACCEL parameters to tighten up on the glitch detection.
+1. The vehicle takes off in the wrong direction as soon as loiter is engaged.  The cause is the same as #1 except that the compass error is greater than 90deg.  Please try the suggestions above to resolve this.
+
+2. The vehicle is loitering normally and then suddenly takes off in the wrong direction.  This is generally caused by a GPS Glitch.  There is no 100% reliable protection against these which means the pilot should always be ready to take-over manual control.  Beyond that ensuring a good GPS HDOP before take-off is always good and it may help to reduce the GPSGLITCH_RADIUS and/or GPSGLITCH_ACCEL parameters to tighten up on the glitch detection.
