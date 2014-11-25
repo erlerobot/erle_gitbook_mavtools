@@ -6,7 +6,7 @@
 
 En este Gitbook se analizan las diferentes herramientas que son usadas en micro vehículos aéreos (MAV) más comunmente conocidos como drones. Mostramos como representar gráficas, analizar los datos y como mejorar tus experiencias de vuelo. En definitiva se explica como entender un fichero de log utilizando las herramientas de MAVProxy. Todos los logs de este libro viene de la placa [Erle](http://erlerobot.com/). **Erle** es una computadora linux para volar drones.
 
-![erlelogo](en/erleimg/Logo_erle.png)
+![erlelogo](http://erlerobotics.com/blog/wp-content/uploads/2014/10/erle_corporativo_5.0_72px_nobackground.png)
 
 ##Acerca de nosotros
 
