@@ -42,5 +42,6 @@ Para revisar el redimiento del control de altitud es el mismo que [AltHold](alti
 
 Como se menciona arriba, el modo Loiter incorpora el controlador de altutid de [AltHold](altitude_hold.md).
 
-- El vehículo despega en la dirección incorecta cuando se entra en el modo loiter. Si el error de la brújula es mayor de 90 grados. Intenta las sugerencias de aajo para resolverlo.
-- El vehículo esta funcionando correctamente en el modo Loiter y de repente se mueve en dirección incorrecta. Esto es causado por un *glitch* del GPS. No hay una protección fiable al 100% contra ésto lo que significa que el piloto debe estar siempre listo para tomar el control del vehículo. Ántes de despegar es bueno comprobar tener un buen valor HDop del GPS, puede ayudar reducir los parámetros GPSGLITCH_RADIUS y/o GPSGLITCH_ACCEL.
+-1. El vehículo despega en la dirección incorecta cuando se entra en el modo loiter. Si el error de la brújula es mayor de 90 grados. Intenta las sugerencias de aajo para resolverlo.
+
+-2. El vehículo esta funcionando correctamente en el modo Loiter y de repente se mueve en dirección incorrecta. Esto es causado por un *glitch* del GPS. No hay una protección fiable al 100% contra ésto lo que significa que el piloto debe estar siempre listo para tomar el control del vehículo. Ántes de despegar es bueno comprobar tener un buen valor HDop del GPS, puede ayudar reducir los parámetros GPSGLITCH_RADIUS y/o GPSGLITCH_ACCEL.
