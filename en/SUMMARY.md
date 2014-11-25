@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introduction](introduction.md)
    * [Where I can find a log file?](where_i_can_find_a_log_file.md)
    * [Installing MAVProxy](installing_mavproxy.md)
    * [Usefull scripts](usefull_scripts.md)
