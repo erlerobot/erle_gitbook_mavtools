@@ -29,19 +29,19 @@ There are 14 flight modes available in APM:Copter, 10 of which are regularly use
 
 Requires GPS lock prior to takeoff:
 
-+ Loiter (& OF_loiter)
-+ RTL (Return-to-Launch)
-+ Auto
-+ Guided
-+ Drift
-+ Position
-+ Follow Me
-+ Circle
++ [Loiter (& OF_loiter)](loiter.md)
++ [RTL (Return-to-Launch)](RTL.md)
++ [Auto](auto.md)
++ [Guided](guided.md)
++ [Drift]()
++ [Position](position.md)
++ [Follow Me](followme.md)
++ [Circle]()
 
 Does not require GPS lock:
 
-+ Stabilize
-+ Alt Hold
-+ Acro
-+ Sport
-+ Land
++ [Stabilize](Stabilization.md)
++ [Alt Hold](altitude_hold.md)
++ [Acro]()
++ [Sport]()
++ [Land](land.md)

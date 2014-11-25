@@ -1,6 +1,6 @@
 # Scripts utiles
 
-Necesitas descarga el script `mavinit.scr`, que contiene algunas alias, muy utilies para testear los motores, radio mando, etc. Para descargarlo, haz lo siguiente:
+Necesitas descarga el script [mavinit.scr](http://tridge.github.io/MAVProxy/files/mavinit.scr), que contiene algunas alias, muy utilies para testear los motores, radio mando, etc. Para descargarlo, haz lo siguiente:
 
 ```
 wget http://tridge.github.io/MAVProxy/files/mavinit.scr

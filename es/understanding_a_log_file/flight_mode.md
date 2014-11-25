@@ -29,19 +29,19 @@ Hay 14 modos de vuelo disponibles en APM:Copter, 10 de ellos son los usados habi
 ####Dependencia del GPS
 Requiere tener señal GPS para despegar:
 
-+ Loiter (& OF_loiter)
-+ RTL (Return-to-Launch)
-+ Auto
-+ Guided
-+ Drift
-+ Position
-+ Follow Me
-+ Circle
++ [Loiter (& OF_loiter)](loiter.md)
++ [RTL (Return-to-Launch)](RTL.md)
++ [Auto](auto.md)
++ [Guided](guided.md)
++ [Drift]()
++ [Position](position.md)
++ [Follow Me](followme.md)
++ [Circle]()
 
 No requieren señal GPS:
 
-+ Stabilize
-+ Alt Hold
-+ Acro
-+ Sport
-+ Land
++ [Stabilize](Stabilization.md)
++ [Alt Hold](altitude_hold.md)
++ [Acro]()
++ [Sport]()
++ [Land](land.md)
