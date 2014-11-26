@@ -14,7 +14,7 @@ Durante años hemos estado trabajando en el mundo de la robótica, particularmen
 
 Estamos llegando a una respuesta a todas estas preguntas, nuestra tecnología: **Erle**.
 
-![imgerle1](erleimg/board2.png)
+![erle-brain](http://erlerobotics.com/blog/wp-content/uploads/2014/10/20141029_202223.jpg)
 
 Inspirado en la BeagleBoard, hemos diseñado un pequeño computador con más de 36 sensores, un montón de I/O y potencia de procesamiento para el análisis en tiempo real. Erle es la tecnología habilitadora para la próxima generación de robots aéreos y terrestres que se utilizará en las ciudades de resolución de tareas como la vigilancia, el monitoreo ambiental o incluso la prestación de ayuda en catástrofes.
 
