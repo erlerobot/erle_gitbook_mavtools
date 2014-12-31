@@ -13,13 +13,7 @@ sudo apt-get install python-pip
 Some modules will be, probably, necessary.
 
 ```
-sudo apt-get install python-opencv
-sudo apt-get install python-wxgtk2.8
-sudo apt-get install python-matplotlib
-sudo apt-get install python-numpy
-sudo apt-get install python-serial
-sudo apt-get install python-pil
-sudo apt-get install libwxgtk2.8-dev
+sudo apt-get install python-opencv python-wxgtk2.8 python-matplotlib python-numpy python-serial python-pil libwxgtk2.8-dev
 ```
 
 ####Installing MAVProxy
