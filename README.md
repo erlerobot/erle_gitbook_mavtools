@@ -4,7 +4,7 @@
 
 ##Book
 
-In this GitBook we analyze the different tools used with Micro Aerial Vehicles (MAV) most commonly known as drones. We show how to make graphics, analyze data and overall we teach you how improve your flight experience. **In this book it explained how to understand log files using MAVProxy tools**. All the log in this book come from [Erle board](http://erlerobot.com/). **Erle** is **a small-size Linux computer for making drones.**
+In this GitBook we analyze the different tools used with Micro Aerial Vehicles (MAV) most commonly known as drones. We show how to make graphics, analyze data and overall we teach you how improve your flight experience. **In this book it explained how to understand log files using MAVProxy tools**. All the log in this book come from [Erle-brain](http://erlerobot.com/). **Erle** is **a small-size Linux computer for making drones.**
 
 ![erlelogo](http://erlerobotics.com/blog/wp-content/uploads/2014/10/erle_corporativo_5.0_72px_nobackground.png)
 
