@@ -21,6 +21,7 @@ sudo apt-get install python-numpy
 sudo apt-get install python-serial
 sudo apt-get install python-pil
 sudo apt-get install libwxgtk2.8-dev
+sudo apt-get install libpython2.7-dev
 ```
 
 ####Instalando MAVProxy
